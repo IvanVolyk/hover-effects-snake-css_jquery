@@ -1,2 +1,2 @@
-# hover-effects-snake-css_jquery
-css for fun! easy snake which disappears
+# hover-effects-snake-css_js
+fun css and js! easy snake which disappears
