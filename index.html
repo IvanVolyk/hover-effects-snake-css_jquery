@@ -10,10 +10,16 @@
 <body><!-- https://youtu.be/AbwMqwYTgLc -->
 	<div class="container"></div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
 <script type="text/javascript">
-	for (i=1; i<=2000; i++) {
+	/*for (i=1; i<=2000; i++) {
 		$('.container').append('<div class="box"></div>');
+	}*/
+
+	for (i=1; i<=2000; i++) {
+		let element = document.createElement('div');
+		element.classList.add("box");
+		document.querySelector(".container").appendChild(element);	
 	}
 </script>	
 </body>
